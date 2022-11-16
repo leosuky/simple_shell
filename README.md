@@ -20,38 +20,6 @@ Basic loop of a shell:
 - includes an exit function that exits the shell
 - includes an env built-in that prints the current environment
 
-## File Contents
-This repository contains the following files:
-
-|   **File**   |   **Description**   |
-| -------------- | --------------------- |
-| shell.c | the main function |
-| shed.h | header file |
-| _itoa.c | custom itoa function |
-| _strcmp.c | custom strcmp function |
-| _strdup.c | custom strdup function |
-| _strlen.c | custom strlen function |
-| custom_atoi.c | custom atoi function |
-| forking_helper.c | contains function to execute command read from commandline |
-| free_array.c | contains function to free array and its tokens |
-| life.c | contains a mix of important function calls |
-| print_env.c | contains function to print environment |
-| run_shell.c | contains function checking if user inputed anything |
-| smart_cat.c | contains function concatenating the command to its path directory |
-| tokenizer.c | contains function that parses the commandline string |
-| var_finder.c | contains function to find PATH variable in environment list |
-
-## Usage
-
-1. Enter custom shell by typing "./hsh". You should be prompted with a ($).
-2. Type a command of your liking and press "Enter".
-3. Appropriate output will appear.
-4. Prompt reappears and awaits your next command.
-5. Exit shell by typing "exit"
-
-## Installation
-Clone the repository. Compile the ".c" files. Run executable.
-
 ## Compilation
 
 Enter the following command to compile:
